@@ -16,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* ===== HEADINGS ===== */
+
 h1 {
     font-size: 2.5rem;
     color: #b03a2e;
@@ -34,19 +34,19 @@ h2 {
     margin-bottom: 16px;
 }
 
-/* ===== PARAGRAPH ===== */
+
 p {
     margin-bottom: 10px;
 }
 
-/* ===== HORIZONTAL RULE ===== */
+
 hr {
     border: none;
     border-top: 1px solid #e8c9a0;
     margin: 24px 0;
 }
 
-/* ===== IMAGE ===== */
+
 img {
     display: block;
     margin: 16px auto;
@@ -56,7 +56,7 @@ img {
     border-radius: 6px;
 }
 
-/* ===== UNORDERED LIST (Ingredients & Tips) ===== */
+
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,7 +73,7 @@ ul li {
     border-radius: 0 4px 4px 0;
 }
 
-/* ===== ORDERED LIST (Instructions) ===== */
+
 ol {
     padding-left: 20px;
     margin-bottom: 10px;
@@ -93,7 +93,7 @@ ol li:hover {
     transition: background-color 0.3s ease;
 }
 
-/* ===== LINKS ===== */
+
 a {
     color: #b03a2e;
     text-decoration: none;
@@ -106,7 +106,7 @@ a:hover {
     transition: color 0.3s ease;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 600px) {
     ul {
         grid-template-columns: 1fr;
