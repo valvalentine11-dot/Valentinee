@@ -1,0 +1,118 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background-color: #fff8f0;
+    color: #2c1a0e;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+    font-size: 2.5rem;
+    color: #b03a2e;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #b03a2e;
+    border-bottom: 2px solid #b03a2e;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+/* ===== PARAGRAPH ===== */
+p {
+    margin-bottom: 10px;
+}
+
+/* ===== HORIZONTAL RULE ===== */
+hr {
+    border: none;
+    border-top: 1px solid #e8c9a0;
+    margin: 24px 0;
+}
+
+/* ===== IMAGE ===== */
+img {
+    display: block;
+    margin: 16px auto;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #b03a2e;
+    border-radius: 6px;
+}
+
+/* ===== UNORDERED LIST (Ingredients & Tips) ===== */
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul li {
+    background-color: #fdebd0;
+    border-left: 4px solid #b03a2e;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+}
+
+/* ===== ORDERED LIST (Instructions) ===== */
+ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ol li {
+    background-color: #ffffff;
+    border: 1px solid #e8c9a0;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+ol li:hover {
+    background-color: #fdebd0;
+    transition: background-color 0.3s ease;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #b03a2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7b241c;
+    transition: color 0.3s ease;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
